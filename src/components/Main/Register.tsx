@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { supabase } from '../../../supabase';
 import { Link } from 'react-router-dom';
-
+import '../../CSS/LoginRegister.css'
 const Register: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
